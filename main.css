@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #007bbf;
+}
+
+@media (max-width: 600px) {
+    input, .login-button {
+        padding: 8px;
+    }
+}
+
+
+
+
+
+
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            color: #333; 
+            overflow: hidden; 
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #777;
+        
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        
+        }
+
+        .dark-mode {
+            background-color: #121212; 
+            color: #f3f4f6; 
+        }
+
+       
+      
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.7;
+            animation: float 5s infinite ease-in-out alternate;
+            z-index: 0;
+        }
+
+        .shape.one {
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            top: 10%;
+            left: 15%;
+        }
+
+        .shape.two {
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+            top: 50%;
+            right: 10%;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            100% {
+                transform: translateY(-20px);
+            }
+        }
+
+        /* Dark Mode Button */
+        .toggle-dark-mode {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .toggle-dark-mode:hover {
+            background-color: #555;
+        }
+
+
+        .toggle-visibility {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none; 
+            border: none; 
+            font-size: 1.2rem; 
+            color: #ccc; 
+            cursor: pointer;
+            outline: none; 
+            transition: color 0.3s ease;
+        }
+        
+        .toggle-visibility:hover {
+            color: #007bbf; 
+        }
+        
+        .toggle-visibility:active {
+            color: #005f8c; 
+        }
+
+        
+        
