@@ -9,10 +9,12 @@ body {
 }
 
 .login-container {
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust the width as needed */
+    padding: 20px; /* Add padding for better spacing */
+    margin: 0 auto; /* Center the container */
+    background-color: #fff; /* Optional: Add a background color */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
     text-align: center;
 }
 
@@ -20,12 +22,15 @@ h1 {
     margin-bottom: 20px;
 }
 
-input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+
+input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none; 
+    padding: 10px; 
+    width: 100%; 
+    box-sizing: border-box; 
 }
 
 .login-button {
@@ -165,6 +170,3 @@ body {
         .toggle-visibility:active {
             color: #005f8c; 
         }
-
-        
-        
